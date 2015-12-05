@@ -13,4 +13,6 @@ The missing console.md(msg) to print markdown with the nodejs console object
 
     console.md('__hello__ --the world-- !');
 
+    console.mdLine('__hello__ --the world-- !');
+
 ```
