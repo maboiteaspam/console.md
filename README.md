@@ -16,3 +16,10 @@ The missing console.md(msg) to print markdown with the nodejs console object
     console.mdLine('__hello__ --the world-- !');
 
 ```
+
+## More
+
+You can see it in action in `npi`
+
+- https://github.com/maboiteaspam/npi
+
