@@ -40,7 +40,8 @@ module.exports = function (renderOpts) {
             util,
             [].slice.apply(arguments)
           )
-        ).replace(/^\n+/, '').replace(/\s+$/, '')
+        ).replace(/\n/, '')// only the first found.
+          .replace(/(\s\n)*$/, '') // any terminating
       )
     }
   }
