@@ -1,6 +1,6 @@
 {
   "name": "@maboiteaspam/console.md",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "The missing console.md(msg) to print markdown with the nodejs console object",
   "main": "index.js",
   "scripts": {
@@ -21,7 +21,7 @@
   "author": "maboiteaspam",
   "license": "WTF",
   "dependencies": {
-    "marked": "^0.3.5",
-    "marked-terminal": "^1.6.1"
+    "marked": ">=0.3.5 <1.0.0-0",
+    "marked-terminal": ">=1.6.1 <2.0.0-0"
   }
 }
