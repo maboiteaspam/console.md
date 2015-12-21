@@ -1,10 +1,10 @@
 # console.md
 
-The missing console.md(msg) to print markdown with the nodejs console object
+The missing `console.md(msg)` to print markdown with the node console object
 
 # Install
 
-    npm i maboiteaspam/console.md
+    npm i @maboiteaspam/console.md
 
 # Usage
 

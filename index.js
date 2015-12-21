@@ -27,7 +27,7 @@ module.exports = function (renderOpts) {
     var mdLineRenderer = new TerminalRenderer(renderOpts);
     mdLineRenderer.code = function(code, lang, escaped) {
       var g = TerminalRenderer.prototype.code.apply(mdLineRenderer, [].slice.apply(arguments));
-      return g.replace(/^\n+/, '').replace(/\n+$/, '').replace(/`/g, '')
+      return g.replace(/^\n*|\n*$/g, '').replace(/`/g, '')
     };
     console.mdline = function (format, msg) {
       marked.setOptions({
